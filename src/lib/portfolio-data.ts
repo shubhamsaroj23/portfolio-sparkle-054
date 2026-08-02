@@ -29,7 +29,7 @@ export const stats = [
   { value: 2.6, suffix: "+", label: "Years Experience", decimals: 1 },
   { value: 10, suffix: "M+", label: "Records Processed", decimals: 0 },
   { value: 6, suffix: "+", label: "Enterprise Projects", decimals: 0 },
-  { value: 1, suffix: "x", label: "AWS Certified", decimals: 0 },
+  { value: 1, suffix: "", label: "AWS Certification", decimals: 0 },
 ];
 
 export const about = [
