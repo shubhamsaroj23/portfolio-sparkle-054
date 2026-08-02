@@ -86,6 +86,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "Shubham Saroj" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Shubham Saroj — Data Engineer" },
+      { name: "twitter:title", content: "Shubham Saroj — Data Engineer" },
+      { property: "og:description", content: "Portfolio of Shubham Saroj, Data Engineer and Software Engineer." },
+      { name: "twitter:description", content: "Portfolio of Shubham Saroj, Data Engineer and Software Engineer." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4f66b82f-9d30-4f1c-9b28-daa67e708f91/id-preview-dafe01ab--4775fb8b-7cee-42c4-938d-f0e0336a7226.lovable.app-1785704720568.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4f66b82f-9d30-4f1c-9b28-daa67e708f91/id-preview-dafe01ab--4775fb8b-7cee-42c4-938d-f0e0336a7226.lovable.app-1785704720568.png" },
     ],
     links: [
       {
