@@ -35,8 +35,9 @@ export function DataFlowArt() {
       </defs>
 
       {edges.map(([a, b], i) => {
-        const from = nodes[a];
-        const to = nodes[b];
+        const from = nodes[a]!;
+        const to = nodes[b]!;
+
         const d = `M ${from.x} ${from.y} C ${(from.x + to.x) / 2} ${from.y}, ${(from.x + to.x) / 2} ${to.y}, ${to.x} ${to.y}`;
         return (
           <g key={i}>
