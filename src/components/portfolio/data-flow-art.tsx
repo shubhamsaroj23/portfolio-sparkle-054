@@ -8,7 +8,7 @@ const nodes = [
   { x: 500, y: 170, label: "Snowflake" },
 ];
 
-const edges = [
+const edges: Array<[number, number]> = [
   [0, 3],
   [1, 3],
   [2, 3],
@@ -17,6 +17,7 @@ const edges = [
   [4, 6],
   [5, 6],
 ];
+
 
 export function DataFlowArt() {
   return (
