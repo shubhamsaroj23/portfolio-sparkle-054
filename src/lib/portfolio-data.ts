@@ -75,14 +75,14 @@ export const recognitions = [
 ];
 
 export const skillGroups = [
-  { category: "Programming", items: ["Python", "SQL", "Bash"] },
+  { category: "Programming", items: ["Python", "SQL", "JavaScript", "Bash"] },
   {
     category: "Data Engineering",
-    items: ["Apache Airflow", "PySpark", "Kafka", "Snowflake", "Databricks", "ETL Development"],
+    items: ["Apache Airflow", "PySpark", "Kafka", "Snowflake", "Databricks", "ETL Development", "DBT", "Redshift", "Data Workflow", "Data Pipelines", "Data Migration", "Data Modeling", "Apache Spark", "Hadoop"],
   },
-  { category: "Cloud", items: ["AWS S3", "AWS Lambda", "AWS Glue", "EC2", "IAM"] },
+  { category: "Cloud", items: ["AWS S3", "Amazon MWAA", "AWS Lambda", "AWS Glue", "EC2", "IAM", "Athena"] },
   { category: "Databases", items: ["PostgreSQL", "SQL Server", "MySQL"] },
-  { category: "Tools", items: ["Git", "GitHub", "VS Code", "Linux"] },
+  { category: "Tools", items: ["Git", "GitHub", "VS Code", "Linux", "CI/CD", "Docker", "Shell Scripting"] },
 ];
 
 export const projects = [
